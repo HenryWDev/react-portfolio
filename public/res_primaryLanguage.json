@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "todo: descriptions, projects, 2nd language(?), fix typography overflow on mobile, nicer color scheme, concact me section",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,12 +11,11 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Chip8 Emulator",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Placeholder",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
         ],
         "url": "",
         "technologies": [
@@ -35,12 +34,11 @@
         ]
       },
       {
-        "title": "Photography",
+        "title": "Spotifriend",
         "startDate": "2018",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -55,12 +53,11 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
+        "title": "dapoliceman.co.uk",
         "startDate": "2015",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -81,37 +78,36 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Roke",
+        "title": "Cyber and Software Engineer",
+        "years": "Sep 2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Fullstack development"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "TODO"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "MoD",
+        "title": "Research and Software Development Intern",
+        "years": "07.2021 - 09.202",
         "mainTech": [
-          "Angular 7/8"
+          "TODO"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "RxJS"
+        ]
+      },
+      {
+        "company": "MoD",
+        "title": "Research and Software Development Intern",
+        "years": "07.2020 - 09.2020",
+        "mainTech": [
+          "TODO"
+        ],
+        "technologies": [
+          "RxJS"
         ]
       }
     ]
