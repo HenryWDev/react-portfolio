@@ -49,10 +49,10 @@ class Header extends Component {
               <span className="iconify header-icon"  data-icon="la:laptop-code"  data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+                {name}
               </h1>
-              <div className="title-container">
-                <Typical className="title-styles" steps={this.titles} loop={50} />
+              <div className="title-container" style={{height:'100px'}}>
+                <Typical className="title-styles" steps={this.titles} loop={50} wrapper='span' /> <span className="title-styles" style={{animation:'styles_blink__2CKyC 1s infinite step-start'}}>|</span>
               </div>
               <Switch
                 checked={this.state.checked}
