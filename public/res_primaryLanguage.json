@@ -1,7 +1,9 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "todo: descriptions, projects, 2nd language(?), fix typography overflow on mobile, nicer color scheme, concact me section",
+      "description": ["I'm a full-stack developer who loves working with new technologies and tinkering with old ones.",
+                      "I specialise in frontend development, low-level development and software reverse engineering."
+                    ],
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,65 +15,78 @@
       {
         "title": "Chip8 Emulator",
         "startDate": "2020",
-        "description": "Placeholder",
+        "description": ["A small project making use of the Dear  ImGui Graphical interface. This application reads in any chip-8 binary and executes it, displaying the output.",
+                        "Registers, instruction information and stack information are displayed in customisable windows.",
+                        "This project used C/C++ as its primary programming language and uses CMake for easy compiling."
+                      ],
         "images": [
-          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
+          "images/portfolio/chip8/chip8_1.gif"
         ],
-        "url": "",
+        "url": "https://github.com/HenryWDev/chip-8",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-c-plain",
+            "name": "C"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-cmake-plain",
+            "name": "CMake"
           }
         ]
       },
       {
         "title": "Spotifriend",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "startDate": "2022-2024",
+        "description": ["I created this as a passion project together with a friend. Spotifriend pulls song data from your and your friends' Spotify accounts, selects a random song, and then lets you and your friends guess who listens to it.", 
+                        "This project made use of Python, Spotify public and private APIs, and discord integration through Python."],
         "images": [
-          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
+          "images/portfolio/spotifriend/spotifriend.gif"
         ],
         "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "dapoliceman.co.uk",
+        "startDate": "2020-2022",
+        "description": ["A personal website I use to host web-based projects revolving around the destiny 2 API. This site currently hosts 6 projects, each one interacting with the API in a variety of ways.",
+                        "To make use of the authenticated endpoints, OAuth 2.0 Authentication is implemented on certain projects.",
+                        "Each project uses the react framework, with various libraries being used in addition to it.",
+                        "AWS is used for static website hosting, certificates and user storage through AWS lambda."
+                      ],
+        "images": [
+          "images/portfolio/dapoliceman/homepage.gif",
+          "images/portfolio/dapoliceman/roll_rater.gif"
+        ],
+        "url": "https://dapoliceman.co.uk",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "dapoliceman.co.uk",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ZXoxemUzdno4ZHk3MWRhbzdrZmt3cG1vM2tvc3ZhaXp2cGRxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0ioCfDnxx3TW/200.webp"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-tailwindcss-original",
+            "name": "Tailwindcss"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-oauth-plain",
+            "name": "Oauth2.0"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS"
           }
         ]
       }
@@ -85,18 +100,26 @@
           "Fullstack development"
         ],
         "technologies": [
-          "TODO"
-        ]
+          "Vue 2/3",
+          "Javascript",
+          "Python",
+          "Software Reverse Engineering",
+          "Linux"
+        ],
+        "icon": "fa-vuejs"
       },
       {
         "company": "MoD",
         "title": "Research and Software Development Intern",
         "years": "07.2021 - 09.202",
         "mainTech": [
-          "TODO"
+          "Python"
         ],
+        "icon": "fa-python",
         "technologies": [
-          "RxJS"
+          "Linux",
+          "Matlab",
+          "Wireshark"
         ]
       },
       {
@@ -104,10 +127,13 @@
         "title": "Research and Software Development Intern",
         "years": "07.2020 - 09.2020",
         "mainTech": [
-          "TODO"
+          "Python"
         ],
+        "icon": "fa-python",
         "technologies": [
-          "RxJS"
+          "Linux",
+          "Matlab",
+          "Wireshark"
         ]
       }
     ]

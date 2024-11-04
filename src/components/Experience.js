@@ -13,6 +13,7 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        const icon = work.icon
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -30,14 +31,14 @@ class Experience extends Component {
         });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--date"
             date={work.years}
             iconStyle={{
               background: "#C56EA8",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className={`fab ${icon} experience-icon`}></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -66,8 +67,8 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="section-title" style={{ textAlign: "center" }}>
+            <h1 className="section-title">
+              <span className="section-title" style={{ textAlign: "center", color:"black" }}>
                 {sectionName}
               </span>
             </h1>

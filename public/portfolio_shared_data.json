@@ -9,36 +9,54 @@
           "class": "fab fa-github"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "portfolio/about/me.jpg"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "name": "HTML",
+          "class": "devicon-html5-plain"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": "CSS",
+          "class": "devicon-css3-plain"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain"
         },
 
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain"
         },
-
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Tailwind",
+          "class": "devicon-tailwindcss-plain"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain"
+        },
+        {
+          "name": "C",
+          "class": "devicon-c-plain"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain"
+        },
+        {
+          "name": "SRE",
+          "class": "devicon-appwrite-plain"
+        },
+        {
+          "name": "Apache Kafka",
+          "class": "devicon-apachekafka-plain"
         }
       ]
     }

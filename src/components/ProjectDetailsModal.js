@@ -6,11 +6,12 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
+    console.log(this.props)
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
       var title = this.props.data.title;
-      var description = this.props.data.description;
+      this.description = this.props.data.description;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -35,6 +36,12 @@ class ProjectDetailsModal extends Component {
         }
       }
     }
+
+    if (this.description === undefined){
+      this.description = []
+    }
+    console.log(this.description)
+
     return (
       <Modal
         {...this.props}
@@ -93,7 +100,9 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            {
+              this.description.map((el, index) => (<p key={index} className="modal-description">{el}</p>))
+            }
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

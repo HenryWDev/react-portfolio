@@ -12,7 +12,10 @@ class About extends Component {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+      this.about = this.props.resumeBasicInfo.description;
+    }
+    else{
+      this.about = []
     }
 
     return (
@@ -80,7 +83,9 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    {
+                      this.about.map((el, index) => (<p key={index} className="modal-description">{el}</p>))
+                    }
                   </div>
                 </div>
               </div>
